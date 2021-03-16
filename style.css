@@ -1,0 +1,108 @@
+body {
+  text-align:           justify;
+  font-size:            15px;
+  font-family:          "Segoe UI", serif;
+  text-rendering:       optimizeLegibility
+}
+
+p {
+  margin-bottom: 20px; /*probar con xxxem*/
+}
+
+
+b, strong{
+    font-weight:            normal; /*bold*/
+    color:                  #ffffff;
+    background:             rgb(47, 164, 231, 0.8);     /*rgb(221, 72, 20, 0.8)*/
+    padding-top:            0.1px;
+    padding-bottom:         0.1px;
+    padding-left:           3px;
+    padding-right:          3px;
+    border-radius:          3px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #00c2a8;
+}
+
+
+blockquote {
+  border-width: 0 0 0 4px;
+  border-style: solid;
+  border-color: #0b87da;
+  background: #eff6fb;
+  color: ;
+  /*border-left:         solid 5px #03A696;
+  padding-left:        1em;*/
+}
+
+
+.info {
+  border-width: 0 0 0 4px;
+  border-style: solid;
+  border-color: #ffe23a;
+  background: rgb(255, 226, 58, 0.1);
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  margin-bottom: 0;
+}
+
+.info ol:last-child, .info p:last-child, .info ul:last-child,
+.tip ol:last-child, .tip p:last-child, .tip ul:last-child {
+  margin-bottom: 0;
+}
+
+.tip {
+  border-width: 0 0 0 4px;
+  border-style: solid;
+  border-color: #00c2a8;
+  background: rgb(0, 194, 168, 0.1);
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  margin-bottom: 0;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+
+.large-120 {font-size: 120%}
+
+
+
+
+
+
+.small-60 {font-size: 60%;}
+
+.nextsteps {
+    margin: 2em;
+  padding: 2em;
+  border: 1px solid red;
+  border-radius: 5px;
+  background: #ffffe6;
+}
+
+.emphasized {
+  font-size: 0.5em;
+}
+
+.particular_topic_block {
+  margin: 2em;
+  padding: 2em;
+  border: 1px solid red;
+  border-radius: 5px;
+  background: #ffffe6;
+}
+
+
+
+/*h1 {font-size: 30px} /*34 px*/
+/*h2 {font-size: 24px} /*30 px*/
+/*h3 {font-size: 18px} /*24 px*/
+/*h4 {font-size: 18px} /*18 px*/ 
